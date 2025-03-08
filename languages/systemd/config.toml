@@ -1,0 +1,23 @@
+name = "Unit File"
+grammar = "systemd"
+path_suffixes = [
+    "service",
+    "socket",
+    "device",
+    "mount",
+    "automount",
+    "swap",
+    "target",
+    "path",
+    "timer",
+    "slice",
+    "scope",
+]
+line_comments = ["# "]
+autoclose_before = "]}"
+brackets = [
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "{", end = "}", close = true, newline = false },
+    { start = "(", end = ")", close = true, newline = false },
+]
+indent = { tab_width = 4, unit = "    " }
