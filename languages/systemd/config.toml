@@ -12,6 +12,10 @@ path_suffixes = [
     "timer",
     "slice",
     "scope",
+    "container",
+    "volume",
+    "network",
+    "kube"
 ]
 line_comments = ["# "]
 autoclose_before = "]}"
