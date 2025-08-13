@@ -23,5 +23,5 @@ file_extensions = [
 ]
 
 [grammars.systemd]
-repository = "https://github.com/10fish/tree-sitter-systemd"
+repository = "https://github.com/cuken/tree-sitter-systemd"
 commit = "13e65e58a895f22f027d6f460fcd4cb79996d866"
